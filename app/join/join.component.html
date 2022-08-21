@@ -1,0 +1,35 @@
+
+<table class="table table-sm" style="border: hidden" ALIGN="left" class="table table-responsive">
+  <tbody>
+    <tr style="border: hidden">
+      <td colspan="4" style="background-color:orange;">
+        <div style="float: left; border: 2px solid blue">
+          <form class="joinForm" [formGroup]="joinRoomForm" (ngSubmit)="onSubmit(joinRoomForm.value)">
+            <div>
+              <input placeholder="name" id="myName" type="text" formControlName="myName" align="center">
+            </div>
+            <div>
+              <input placeholder="room name" id="roomName" type="text" formControlName="roomName" align="center">
+            </div>
+            <div>
+              <button align="left" class="button" type="submit">Join</button>
+            </div>
+          </form>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+  
+
+
+  
+
+
